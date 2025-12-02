@@ -1,6 +1,6 @@
 // only change for these 2//
 
-export const server = 'https://shop.identitycards.co.in';
+export const server = 'https://identitycardsnextjs-r86csp69n-identitycards.vercel.app/';
 export const local = 'https://shop.identitycards.co.in/php-backend';
 
 //No need to change//
