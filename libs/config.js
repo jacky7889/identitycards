@@ -1,7 +1,7 @@
 // only change for these 2//
 
-export const server = process.env.server;
-export const local = process.env.local;
+export const server = process.env.NEXT_PUBLIC_SERVER;
+export const local = process.env.NEXT_PUBLIC_LOCAL;
 
 //No need to change//
 export const DOMAIN_URL = `${server}`;
