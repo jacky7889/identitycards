@@ -1,7 +1,7 @@
 // only change for these 2//
 
-export const server = 'https://shop.identitycards.co.in';
-export const local = 'https://shop.identitycards.co.in/php-backend';
+export const server = process.env.server;
+export const local = process.env.local;
 
 //No need to change//
 export const DOMAIN_URL = `${server}`;
